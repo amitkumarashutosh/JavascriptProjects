@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/*reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#65a30d;
+    --dark-color:#4d7c0f;
+    --light-color: #64748b;
+    --deem-light-color:#e2e8f0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 70%;
+    margin: 0 auto;  
+    line-height: 2; 
+}
+
+
+/* tags */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/* navbar and header*/
+.container{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content:space-between;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+}
+
+.container ul{
+    display: flex;
+}
+.container h4{
+    padding-left: 1rem;
+}
+.container h4 a{
+    color: white;
+}
+
+.container ul a{
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+.container ul a:hover{
+    background-color: var(--dark-color);
+    color: aliceblue;
+}
+
+
+
+/* section */
+.section-info{
+    display: flex;
+    padding: 1.5rem;
+}
+.section-heading{
+    text-align: center;
+    padding: 1rem;
+}
+.section-info img{
+    width: 50%;
+}
+.section-heading h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--light-color)
+}
+.section-heading #highlight{
+    color: var(--primary-color)
+}
+
+
+/* light and dark box */
+.light-box{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.dark-box{
+    background-color: var(--deem-light-color);
+    padding: 2rem 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*dark button and light button*/
+.btn-dark{
+    margin: 1rem .5rem;
+    border:none;
+    color:white;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+}
+.btn-dark a{
+    color: white;
+    display: block;
+    padding: 1.1rem;
+}
+.btn-light{
+    margin: 1rem .6rem;
+    border-color: var(--primary-color);
+    color:var(--primary-color);
+    border-radius: 1rem;
+}
+.btn-light a{
+    color:var(--primary-color);
+    display: block;
+    padding: 1rem;
+}
+
+
+/* projects section and tech stack*/
+
+#about{
+   margin: 2rem 0;
+   padding: 2rem;
+}
+#about h1{
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.about-info{
+    text-align:left;
+}
+.about-tech{
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+.footer-container ul{
+    display: flex;
+}
+.footer-container ul a{
+    display: block;
+    padding:0 1.5rem;
+    color: white;
+}
+.footer-container h3{
+    color: white;
+}
+
+
