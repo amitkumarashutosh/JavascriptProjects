@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grey{
+  color: gray;
+}
+.red{
+  color: red;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.tab{
+  background-color:#f2f2f2 ;
+  color: #000000;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  padding: 0.6rem 3.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.active {
+  background-color: #000000;
+  color: #f2f2f2;
+}
+
+.card{
+  max-width: 350px;
+  margin: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card img{
+  width: 100%;
+  height: 400px;
+}
+
+.text{
+  position: absolute;
+  top: 0;
+  left:0;
+  margin: 4px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  background-color: white;
+  color: #000000;
+
+}
+
+.title,.price{
+  display: flex;
+  justify-content:space-between ;
+}
+
+.product-container{
+  display: flex;
+}
+
+.btn{
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  margin-top: 0.3rem;
+  font-size: larger;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+
+@media only screen and (max-width: 767px){
+  .product-container{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .product-container{
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+}
