@@ -5,6 +5,7 @@
 <p>Weather App = https://realtimweather.netlify.app/</p>
 
 <p>Birthday Luck = https://anyonebirthdayluck.netlify.app/</p>
+<p>Product List = https://productscollection.netlify.app/</p>
 <p>Stock Purchase = https://stockpurchasecalculator.netlify.app/</p>
 <p>Minions Talk = https://minionstalkies.netlify.app/</p>
 <p>Mandalorian Translator = https://mandaloriantranslatorapp.netlify.app/</p>
