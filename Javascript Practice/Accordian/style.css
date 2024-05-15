@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordian__container{
+    max-width: 500px;
+    margin: auto;
+   
+}
+
+.accordian__items{
+    background-color: rgb(219, 207, 207)
+}
+
+.accordian__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bolder;
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+}
+
+.accordian__content{
+    background-color: rgb(246, 240, 240);
+    padding: 0.5rem;
+    display: none;
+}
+
+.accordian__items.active .accordian__content{
+    display: block;
+}
+
+.accordian__items.active .accordian__title span{
+    transform: rotate(180deg);
+}

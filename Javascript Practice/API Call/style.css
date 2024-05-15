@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.post__container{
+    background-color: rgb(227, 58, 227);
+    margin:0.5rem;
+    padding:5px;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post__title{
+    font-size:1.4rem;
+    padding:4px
+}
+
+.post__description{
+    font-size:1.2rem;
+}

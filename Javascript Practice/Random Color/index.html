@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Random Color</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__section hex__color">
+            <span class="hex__value">#Er1212</span>
+            <button class="hex__btn btn">Create HEX Color</button>
+        </div>
+        <div class="container__section rgb__color">
+            <span class="rgb__value">rgba(104,121,111)</span>
+            <div>
+                <div>
+                    <label for="">Red</label>
+                    <input type="range" min="0" max="255" id="red">
+                </div>
+                <div>
+                    <label for="">Green</label>
+                    <input type="range" min="0" max="255" id="green">
+                </div>
+                <div>
+                    <label for="">Blue</label>
+                    <input type="range" min="0" max="255" id="blue">
+                </div>
+            </div>
+            <button class="rgb__btn btn">Create RGB Color</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

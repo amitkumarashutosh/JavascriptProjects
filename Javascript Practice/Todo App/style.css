@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#todos__container{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: 1rem;
+}
+
+#todos__container .todos__input{
+    width: 350px;
+    display: flex;
+    
+}
+#todos__container .todos__input .todo__input{
+    padding: 0.2rem 0.3rem;
+    flex: 1;
+    font-size: 1.1rem;
+}
+#todos__container .todos__input .todo__btn{
+    padding: 0.3rem 0.5rem;
+    margin-left: 5px;   
+    cursor: pointer;
+    
+}
+
+#todos__container .todos__list{
+    display: flex;
+    align-items: center;
+    width: 340px;
+    margin-top: 1rem;
+    justify-content: space-between;
+    padding: 0.3rem 0.4rem;
+    border-bottom: 1px solid rgb(204, 197, 197);
+    font-size: 1.2rem;
+}
+
+#todos__container .todos__list button{
+    padding: 0.3rem 0.5rem;
+    margin-left: 5px;   
+    cursor: pointer;
+}

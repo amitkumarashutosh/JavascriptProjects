@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+
+}
+
+.container__section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin:0.2rem;
+}
+
+.hex__color{
+    background-color:aliceblue;
+    
+}
+
+.rgb{
+    background-color:rgb(233, 217, 197)
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+
+

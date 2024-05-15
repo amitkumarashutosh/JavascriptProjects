@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(219, 210, 210);
+}
+
+.tabs__container{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+.tab-btn{
+    margin-bottom: 1rem;
+ 
+}
+.tab-btn{
+    padding: 0.2rem 0.3rem;
+    cursor: pointer;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem;
+}
+.container{
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    border: 2px solid grey;
+    padding: 0.3rem;
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 0.3rem 0.3rem 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2.3rem;
+}
+
+.winner{
+    text-align: center;
+    margin-top: 1rem;
+    color:rgb(29, 175, 16);
+    font-size: 1.5rem;
+}
+
+.reset__btn{
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.3rem .5rem;
+    cursor: pointer;
+}
